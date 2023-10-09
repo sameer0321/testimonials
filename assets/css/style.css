@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@700;900&display=swap');
+
+:root {
+
+    --fs-small: 16px;
+    --fs-medium: 17px;
+    --fs-large: 21px;
+    --fs-xl: 32px;
+
+    /* color */
+    --color-black: #1E1E1E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* font family */
+.ff-Nunito {
+    font-family: "Nunito";
+}
+
+.ff-Lora {
+    font-family: "Lora";
+}
+
+/* color */
+.color-black {
+    color: var(--color-black);
+}
+
+/* font size */
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-medium {
+    font-size: var(--fs-medium);
+}
+
+.fs-large {
+    font-size: var(--fs-large);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.lineHeight133 {
+    line-height: 133.4%;
+}
+
+.letterSpacing088 {
+    letter-spacing: 0.88px;
+}
+
+.lineHeight176 {
+    line-height: 176%;
+}
+
+.letterSpacing036 {
+    letter-spacing: 0.36px;
+}
+
+.lineHeightNormal {
+    line-height: normal;
+}
+
+.letterSpacing12 {
+    letter-spacing: 1.2px;
+}
+
+.letterSpacing085 {
+    letter-spacing: 0.85px;
+}
+
+.line {
+    width: 272px;
+    height: 6px;
+    opacity: 0.7;
+    background: #FBCC04;
+    bottom: 19%;
+    right: 3%;
+}
+
+.mw-380 {
+    max-width: 380px;
+}
+
+.custom-container {
+    max-width: 888px !important;
+}
+
+.Circle1 {
+    width: 204px;
+    height: 204px;
+    border-radius: 50%;
+    border: 2px solid #FACA10;
+    background: #FFF;
+    opacity: 0.3;
+}
+
+.Circle2 {
+    width: 180px;
+    height: 180px;
+    background: #FFF;
+    border-radius: 50%;
+    border: 2px solid #FACA10;
+    opacity: 1;
+}
+
+.max-width-864 {
+    max-width: 864px;
+}
+
+.quotes {
+    bottom: -11%;
+    right: 35%;
+    width: 50px;
+    height: 37.838px;
+}
+
+.Slider1 .slick-slide.slick-center {
+    scale: 1;
+    opacity: 1;
+    display: flex !important;
+    justify-content: center;
+}
+
+.Slider1 div:has(+ .slick-center) {
+    scale: 0.75;
+    opacity: 0.7;
+}
+
+.Slider1 .slick-center+div {
+    scale: 0.7;
+    opacity: 0.7;
+}
+
+.Slider1 .slick-slide {
+    scale: 0.4;
+    opacity: 0.5;
+}
+
+.d_none {
+    display: none;
+}
+
+.circles {
+    top: -16%;
+}
+
+.Slider1 .slick-track {
+    min-height: 228px !important;
+    padding-top: 35px !important;
+}
+
+.Slider1 .slick-slide .circles {
+    display: none;
+}
+
+.Slider1 .slick-slide .quotes {
+    display: none;
+}
+
+.Slider1 .slick-slide.slick-center .circles {
+    display: inline-block;
+}
+
+.Slider1 .slick-slide.slick-center .quotes {
+    display: inline-block;
+}
+
+
+@media (min-width: 576px) {
+    :root {
+        /* font size */
+        --fs-small: 17px;
+        --fs-medium: 18px;
+        --fs-large: 24px;
+        --fs-xl: 44px;
+    }
+
+    .quotes {
+        bottom: -11%;
+        right: 21%;
+    }
+
+    .Slider1 .slick-track {
+        min-height: 306px !important;
+        padding-top: 70px !important;
+    }
+}
+
+@media (min-width: 887px) {
+    .circles {
+        top: -15%;
+    }
+
+    .quotes {
+        bottom: -11%;
+        right: 1%;
+    }
+}
